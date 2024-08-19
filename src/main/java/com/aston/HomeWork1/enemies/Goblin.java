@@ -1,4 +1,4 @@
-package com.aston.enemies;
+package com.aston.HomeWork1.enemies;
 
 public class Goblin extends Enemy{
     public Goblin() {

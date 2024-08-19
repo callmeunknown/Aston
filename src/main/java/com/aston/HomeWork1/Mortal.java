@@ -1,4 +1,4 @@
-package com.aston;
+package com.aston.HomeWork1;
 
 public interface Mortal {
     int getHealth();

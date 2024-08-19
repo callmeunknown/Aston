@@ -1,7 +1,7 @@
-package com.aston;
+package com.aston.HomeWork1;
 
-import com.aston.enemies.Goblin;
-import com.aston.heroes.Warrior;
+import com.aston.HomeWork1.enemies.Goblin;
+import com.aston.HomeWork1.heroes.Warrior;
 
 public class BattleGround {
     public static void main(String[] args) {

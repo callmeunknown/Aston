@@ -1,21 +1,27 @@
-package com.aston.enemies;
+package com.aston.HomeWork1.heroes;
 
-import com.aston.Combatant;
-import com.aston.Mortal;
+import com.aston.HomeWork1.Combatant;
+import com.aston.HomeWork1.Mortal;
 
-public abstract class Enemy implements Mortal, Combatant {
+public abstract class Hero implements Mortal, Combatant {
     private String name;
     private int health;
     private int attack;
 
-    public Enemy(String name, int health, int attack) {
+    Hero(String name) {
         this.name = name;
-        this.health = health;
+    }
+
+    public void setAttack(int attack) {
         this.attack = attack;
     }
 
     public int getHealth() {
         return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     @Override

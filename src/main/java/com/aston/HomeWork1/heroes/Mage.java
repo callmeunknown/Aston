@@ -1,4 +1,4 @@
-package com.aston.heroes;
+package com.aston.HomeWork1.heroes;
 
 public class Mage extends Hero {
     public Mage(String name) {

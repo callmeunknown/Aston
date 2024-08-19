@@ -1,4 +1,4 @@
-package com.aston.heroes;
+package com.aston.HomeWork1.heroes;
 
 public class Warrior extends Hero {
     public Warrior(String name) {

@@ -1,4 +1,4 @@
-package com.aston.heroes;
+package com.aston.HomeWork1.heroes;
 
 
 public class Archer extends Hero{
